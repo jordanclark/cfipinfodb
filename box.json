@@ -1,28 +1,28 @@
 {
-    "name":"cfomdb",
-    "slug":"cfomdb",
-    "version":"0.6.4",
+    "name":"cfipinfodb",
+    "slug":"cfipinfodb",
+    "version":"0.5.0",
     "author":"Jordan Clark <jordanclark@gmail.com>",
     "keywords":[
-        "omdb",
-        "imdb",
-        "movies",
+        "ipinfodb",
+        "geo location",
+        "ip lookup",
         "api",
         "rest"
     ],
-    "shortDescription":"API client for omdbapi.com",
+    "shortDescription":"API client for ipinfodb.com",
     "type":"modules",
-    "location":"jordanclark/cfomdb#v0.6.4",
+    "location":"jordanclark/cfipinfodb#v0.5.0",
     "repository":{
-        "URL":"https://github.com/jordanclark/cfomdb.git",
+        "URL":"https://github.com/jordanclark/cfipinfodb.git",
         "type":"GIT"
     },
-    "homepage":"https://github.com/jordanclark/cfomdb",
-    "bugs":"https://github.com/jordanclark/cfomdb/issues",
+    "homepage":"https://github.com/jordanclark/cfipinfodb",
+    "bugs":"https://github.com/jordanclark/cfipinfodb/issues",
     "license":[
         {
             "type":"Apache-2.0",
-            "URL":"https://github.com/jordanclark/cfomdb/blob/master/LICENSE"
+            "URL":"https://github.com/jordanclark/cfipinfodb/blob/master/LICENSE"
         }
     ],
     "private":false,
@@ -32,7 +32,7 @@
         "/tests/"
     ],
     "scripts":{
-        "postVersion":"package set location='jordanclark/cfomdb#v`package version`'",
+        "postVersion":"package set location='jordanclark/cfipinfodb#v`package version`'",
         "onRelease":"publish",
         "postPublish":"!git push --follow-tags"
     }
