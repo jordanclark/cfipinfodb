@@ -48,7 +48,7 @@ component {
 		};
 		var out= this.apiRequest( argumentCollection= args );
 		if ( out.success ) {
-			//  process 
+			// process 
 			try {
 				structAppend( out, deserializeJSON( out.response ) );
 			} catch (any cfcatch) {
@@ -66,7 +66,7 @@ component {
 		};
 		var out= this.apiRequest( argumentCollection= args );
 		if ( out.success ) {
-			//  process 
+			// process 
 			try {
 				structAppend( out, deserializeJSON( out.response ) );
 			} catch (any cfcatch) {
