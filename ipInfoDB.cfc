@@ -52,7 +52,7 @@ component {
 			try {
 				structAppend( out, deserializeJSON( out.response ) );
 			} catch (any cfcatch) {
-				out.error= out.error & " JSON Error: " & cfcatch.message & "; ";
+				out.error &= " JSON Error: " & (cfcatch.message?:"No catch message") & " " & (cfcatch.detail?:"No catch detail") & "; ";
 			}
 		}
 		return out;
@@ -70,7 +70,7 @@ component {
 			try {
 				structAppend( out, deserializeJSON( out.response ) );
 			} catch (any cfcatch) {
-				out.error= out.error & " JSON Error: " & cfcatch.message & "; ";
+				out.error &= " JSON Error: " & (cfcatch.message?:"No catch message") & " " & (cfcatch.detail?:"No catch detail") & "; ";
 			}
 		}
 		return out;
