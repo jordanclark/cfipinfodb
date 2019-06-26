@@ -97,7 +97,7 @@ component {
 			out.delay= this.throttle - ( getTickCount() - this.lastRequest );
 			if ( out.delay > 0 ) {
 				this.debugLog( "Pausing for #out.delay#/ms" );
-				cfthread( duration=out.delay, action="sleep" );
+				sleep( out.delay );
 			}
 		}
 		this.debugLog( out.url );
