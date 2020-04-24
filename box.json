@@ -1,7 +1,7 @@
 {
     "name":"cfipinfodb",
     "slug":"cfipinfodb",
-    "version":"0.5.3",
+    "version":"0.5.4",
     "author":"Jordan Clark <jordanclark@gmail.com>",
     "keywords":[
         "ipinfodb",
@@ -12,7 +12,7 @@
     ],
     "shortDescription":"API client for ipinfodb.com",
     "type":"modules",
-    "location":"jordanclark/cfipinfodb#v0.5.3",
+    "location":"jordanclark/cfipinfodb#v0.5.4",
     "repository":{
         "URL":"https://github.com/jordanclark/cfipinfodb.git",
         "type":"GIT"
